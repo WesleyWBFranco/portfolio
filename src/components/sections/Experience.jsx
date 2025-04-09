@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import EarthCanvas from "../canvas/Earth";
 import { experiences } from "../../data/constants";
 import { lighten } from 'polished';
 
@@ -214,7 +213,6 @@ const Experience = () => {
                         </TimelineItem>
                     ))}
                 </Timeline>
-                <EarthCanvas />
             </Wrapper>
         </Container>
     );

@@ -11,6 +11,7 @@ import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import About from "./components/sections/About";
 
+
 const Body = styled.div`
   background-color: ${({theme }) => theme.bg};
   width: 100%;
